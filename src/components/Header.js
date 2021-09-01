@@ -6,7 +6,7 @@ export default function Header() {
         <header className={styles.header}>
             <Link href="/">
                 <a>
-                    <h1>TNF radar</h1>
+                    <h1>Wof!</h1><h2>Free and opensource concept studio for a better world</h2>
                 </a>
             </Link>
         </header>
