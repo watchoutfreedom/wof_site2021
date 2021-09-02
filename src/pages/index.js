@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>TNF radar</title>
+        <title>Wof!</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <div className={styles.container}>
