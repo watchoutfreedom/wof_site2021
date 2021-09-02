@@ -38,7 +38,6 @@ export default function Post({ source, frontmatter }) {
             <div className={styles.container}>
                 <Header />
                 <main className={styles.articles}>
-                    <Image className={styles.img} src={frontmatter.img} alt={frontmatter.alt} width={600} height={600}/>
                     <MDXRemote {...source} />
                 </main>
             </div>

@@ -7,6 +7,7 @@ export default function Header() {
             <Link href="/">
                 <a>
                     <h1>Wof!</h1>
+                    <h3>Free and opensource projects and concepts for all</h3>
                 </a>
             </Link>
         </header>
