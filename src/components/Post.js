@@ -9,7 +9,6 @@ export default function Post({ title, slug, date, img, alt }) {
                 <a>
                     <div className={styles.post}>
                         <div className={styles.postImg}>
-                            <Image src={img} alt={alt} width={800} height={800}/>
                         </div>
                         <div className={styles.postInfo}>
                             <h3>{title}</h3>

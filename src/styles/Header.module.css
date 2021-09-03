@@ -1,6 +1,7 @@
 .header {
     border-bottom: 1px solid #292929;
     position: sticky;
+    padding: 0 2%;
     top: 0;
     background: #fff;
     z-index: 20;

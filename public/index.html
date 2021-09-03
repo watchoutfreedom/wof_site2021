@@ -21,17 +21,18 @@
 
 
 
-  <body style="width:100%">
+<body style="width:100%">
 
 
-  <div id="loader" style="position:absolute;width: 100px; height:100px; left:50%; top:50%; margin:-50px -50px"></div>
+<div id="loader" style="position:absolute;width: 100px; height:100px; left:50%; top:50%; margin:-50px -50px"></div>
 <script type="text/javascript">
-$('#loader').shCircleLoader();
-var i = 0;
-setInterval(function() {
-    $('#loader').shCircleLoader('progress', i + '%');
-    if (++i > 100) i = 100;
-}, 100);</script>
+  $('#loader').shCircleLoader();
+  var i = 0;
+  setInterval(function() {
+      $('#loader').shCircleLoader('progress', i + '%');
+      if (++i > 100) i = 100;
+  }, 100);
+</script>
 
 
     <div  id="swiffycontainer" style=" position:absolute; width:1024px; height:768px;  left:50%; margin:0px -512px"></div>
