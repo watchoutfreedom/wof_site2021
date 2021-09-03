@@ -1,9 +1,11 @@
 .header {
     border-bottom: 1px solid #292929;
     position: sticky;
+    display: flex;
     top: 0;
     background: #fff;
     z-index: 20;
+    font-family: Poppins, Helvetica, Sans-Serif;
 }
 
 .header h1 {
@@ -13,5 +15,22 @@
 
 .header h3 {
     font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+.header a {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.header .title {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.header .links {
+    font-size: 2rem;
+    display: flex;
+    flex: 1 auto;
     margin: 1rem 0;
 }
