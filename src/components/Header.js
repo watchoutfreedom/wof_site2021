@@ -7,7 +7,7 @@ export default function Header() {
             <Link href="/">
                 <a>
                     <h1>Wof!</h1>
-                    <h3>Free and opensource projects and concepts for all</h3>
+                    <h3>Free opensource projects and concepts for all</h3>
                 </a>
             </Link>
             <div class="links"><a href="mailto:mail@watchoutfreedom.com">Mail</a>/<a href="https://www.instagram.com/watchoutfreedom/">Instagram</a>/<a href="https://www.twitter.com/watchout_f/">Twitter</a></div>
