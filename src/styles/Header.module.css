@@ -1,7 +1,6 @@
 .header {
     border-bottom: 1px solid #292929;
     position: sticky;
-    display: flex;
     top: 0;
     background: #fff;
     z-index: 20;
@@ -19,18 +18,20 @@
 }
 
 .header a {
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+
 }
 
 .header .title {
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 0rem 0;
 }
 
-.header .links {
-    font-size: 2rem;
-    display: flex;
-    flex: 1 auto;
-    margin: 1rem 0;
+.header > div {
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1rem 1rem;
 }
