@@ -19,13 +19,12 @@
 
 .header a {
     font-size: 1.5rem;
-    margin: 1rem 1rem;
-
+    margin: 0rem 0rem;
 }
 
 .header .title {
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 0 0;
 }
 
 .header > div {
@@ -33,5 +32,9 @@
     position: fixed;
     top: 0;
     right: 0;
+    margin: 1rem 1rem;
+}
+
+.header > div a {
     margin: 1rem 1rem;
 }
