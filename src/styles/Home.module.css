@@ -30,6 +30,14 @@
     text-decoration: underline;
 }
 
+.articles h3 a {
+    text-decoration: underline;
+}
+
+.articles p a {
+    text-decoration: underline;
+}
+
 .articles p {
     font-size: 2.1rem;
     line-height: 3.2rem;
