@@ -26,6 +26,10 @@
     font-size: 2.2rem;
 }
 
+.articles h5 {
+    font-size: 1.8rem;
+}
+
 .articles h4 a {
     text-decoration: underline;
 }
