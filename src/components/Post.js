@@ -3,13 +3,17 @@ import Link from "next/link";
 import styles from "../styles/Post.module.css";
 
 export default function Post({ title, slug, date, img, alt }) {
+
+
     return (
         <>
             <Link href={slug}>
                 <a>
                     <div className={styles.post}>
                         <div className={styles.postImg}>
+                        {img &&
                             <Image src={img} alt={alt} width={800} height={800}/>
+                        }
                         </div>
                         <div className={styles.postInfo}>
                             <h3>{title}</h3>
