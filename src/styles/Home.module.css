@@ -47,6 +47,13 @@
     line-height: 3.2rem;
 }
 
+.articles h6 {
+  font-size: 1.8rem;
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+
 .articles img {
     width: 100%;
     height: 100%;
