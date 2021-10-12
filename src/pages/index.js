@@ -22,6 +22,14 @@ export default function Home({ posts }) {
           </article>
         </main>
       </div>
+      <script src="https://utteranc.es/client.js"
+              repo="https://github.com/watchoutfreedom/wof_site2021"
+              issue-term="url"
+              label="Comment"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
     </>
   )
 };
