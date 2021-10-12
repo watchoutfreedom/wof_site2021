@@ -28,7 +28,7 @@ export default class Comments extends Component {
       script.setAttribute("crossorigin","anonymous");
       script.setAttribute("async", true);
       script.setAttribute("repo", "watchoutfreedom/wof_site2021");
-      script.setAttribute("issue-term", "url");
+      script.setAttribute("issue-term", "title");
       script.setAttribute( "theme", "github-light");
       anchor.appendChild(script);
   }
