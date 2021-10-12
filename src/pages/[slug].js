@@ -40,6 +40,14 @@ export default function Post({ source, frontmatter }) {
                 <main className={styles.articles}>
                     <MDXRemote {...source} />
                 </main>
+                <script src="https://utteranc.es/client.js"
+                        repo="https://github.com/watchoutfreedom/wof_site2021"
+                        issue-term="url"
+                        label="Comment"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
             </div>
         </>
     );
