@@ -21,6 +21,7 @@
 .header a {
     font-size: 1.5rem;
     margin: 0rem 0rem;
+    text-decoration: underline;
 }
 
 .header .title {

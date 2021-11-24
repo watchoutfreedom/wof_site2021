@@ -66,6 +66,45 @@
     border-radius: 0.5rem;
 }
 
+.actions {
+
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-top: 1px dashed black;
+
+}
+
+.actions div {
+    width: 100%;
+    padding: 20px;
+    border-radius: 100px;
+    margin: auto;
+    display: flex;
+
+}
+
+.actions div a {
+    width: 100%;
+    padding: 20px;
+    border-radius: 100px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    display: -moz-box;
+    align-content: center;
+    display: flex;
+}
+
 @media (min-width: 1200px) {
     .articles {
         width: 50%;
@@ -75,5 +114,10 @@
     .articles h1 {
         font-size: 4.8rem;
         line-height: 6rem;
+    }
+
+    .actions div a {
+        width: 50%;
+
     }
 }
