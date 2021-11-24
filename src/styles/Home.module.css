@@ -38,6 +38,11 @@
     text-decoration: underline;
 }
 
+.articles h6 a {
+    text-decoration: underline;
+}
+
+
 .articles p a {
     text-decoration: underline;
 }
@@ -50,6 +55,7 @@
 .articles h6 {
   font-size: 1.8rem;
   color: red;
+  line-height: 2.8rem;
   padding: 0;
   margin: 0;
 }

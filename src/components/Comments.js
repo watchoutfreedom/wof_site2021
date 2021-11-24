@@ -6,7 +6,7 @@ import Utterances from "utterances-react"
 //       issueTerm="url"
 //       label="Comment"
 //       theme="github-light"
-//       crossorigin="anonymous"
+//       crossOrigin="anonymous"
 //       async={false}
 //       style={`
 //       & .utterances {
@@ -25,7 +25,7 @@ export default class Comments extends Component {
       let script = document.createElement("script");
       let anchor = document.getElementById("inject-comments-for-uterances");
       script.setAttribute("src", "https://utteranc.es/client.js");
-      script.setAttribute("crossorigin","anonymous");
+      script.setAttribute("crossOrigin","anonymous");
       script.setAttribute("async", true);
       script.setAttribute("repo", "watchoutfreedom/wof_site2021");
       script.setAttribute("issue-term", "title");

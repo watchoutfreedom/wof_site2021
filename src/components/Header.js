@@ -7,10 +7,10 @@ export default function Header() {
             <Link href="/">
                 <a>
                     <h1>Wof!</h1>
-                    <h3>Free opensource projects and concepts for all</h3>
+                    <h3>Opensource projects, thinking community and concept consultancy for all</h3>
                 </a>
             </Link>
-            <div class="links"><a href="mailto:mail@watchoutfreedom.com">Mail</a>/<a href="https://www.instagram.com/watchoutfreedom/">Instagram</a>/<a href="https://www.twitter.com/watchout_f/">Twitter</a></div>
+            <div className="links"><a href="mailto:mail@watchoutfreedom.com">Mail</a>/<a href="https://t.me/+ild_m4EMsEk2ZTE0">Telegram</a>/<a href="https://www.instagram.com/watchoutfreedom/">Instagram</a>/<a href="https://www.twitter.com/watchout_f/">Twitter</a></div>
         </header>
     );
 }

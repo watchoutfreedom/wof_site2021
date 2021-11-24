@@ -27,7 +27,7 @@ export default function Home({ posts }) {
               issue-term="url"
               label="Comment"
               theme="github-light"
-              crossorigin="anonymous"
+              crossOrigin="anonymous"
               async>
       </script>
     </>
