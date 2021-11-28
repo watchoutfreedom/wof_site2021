@@ -12,6 +12,12 @@ export default function Home({ posts }) {
       <Head>
         <title>Wof! - Watch out, freedom! - Cuidado, libertad! </title>
         <link rel="icon" href="./favicon.ico" />
+        <link
+          rel="preload"
+          href="/styles/fonts/wof.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <div className={styles.container}>
         <Header />

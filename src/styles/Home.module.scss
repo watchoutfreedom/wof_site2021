@@ -164,6 +164,11 @@
   align-content: center;
   display: flex;
 
+  &:hover {
+    cursor: cell;
+    background-color: black;
+  }
+
 }
 
 

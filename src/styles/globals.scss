@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Poppins&display=swap');
+
+@font-face {
+  font-family: "wof";
+  src: url("../../public/fonts/wof.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 $color-red: #110100;
 $color-black: #000000;

@@ -5,7 +5,8 @@
     top: 0;
     background: #fff;
     z-index: 20;
-    font-family: Poppins, Helvetica, Sans-Serif;
+    font-family: wof, Poppins, Helvetica, Sans-Serif;
+
 }
 
 .header h1 {
@@ -14,12 +15,14 @@
     padding: 1rem;
     color: white;
     background-color: Turquoise;
-    transform: rotate(2vw);
-    transition: 0.2s;
-    // background: linear-gradient(10deg, Turquoise, #fbfe02);
     width: 100%;
+    font-family: wof;
     -webkit-clip-path: polygon(120% 0, 0 0, 0 100%);
     clip-path: polygon(120% 0, 0 0, 0 100%);
+
+    &:hover {
+      cursor: cell;
+    }
 }
 
 .header h3 {
@@ -31,10 +34,17 @@
     font-size: 1.5rem;
     margin: 0rem 0rem;
     text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+      transform: rotate(45deg);
+      transition: 0.2s;
+      cursor:  help;
+    }
 }
 
 .header .title {
-    font-size: 2rem;
+    font-size: 5rem;
     margin: 0 0;
 }
 
