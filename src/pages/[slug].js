@@ -4,7 +4,7 @@ import { getFileBySlug, getFiles } from "../../lib/mdx";
 import Header from "../components/Header";
 import Comments from "../components/Comments";
 import Image from "next/image";
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 
 export default function Post({ source, frontmatter }) {
@@ -40,8 +40,8 @@ export default function Post({ source, frontmatter }) {
                 <Header />
                 <main className={styles.articles}>
                     <MDXRemote {...source} />
-                    <Comments />
                 </main>
+                <Comments />
 
             </div>
         </>

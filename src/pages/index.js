@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import Head from 'next/head'
 import Post from '../components/Post'
 import Link from "next/link";
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 import { getAllFilesMetadata } from '../../lib/mdx'
 
@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Wof!</title>
+        <title>Wof! - Watch out, freedom! - Cuidado, libertad! </title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <div className={styles.container}>
@@ -21,11 +21,10 @@ export default function Home({ posts }) {
               posts.map(({title, slug, date, img}) => <Post title={title} slug={slug} date={date} img={img} key={slug}/>)
             }
           </article>
-
         </main>
         <div className={styles.actions}>
             <div>
-              <a href="https://t.me/+ild_m4EMsEk2ZTE0">Order consultancy / Join community</a>
+              <a href="https://t.me/Wofree_bot">Join Now!</a>
             </div>
         </div>
       </div>

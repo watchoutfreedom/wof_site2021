@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
 
+$color-red: #110100;
+$color-black: #000000;
+
 html,
 body {
   padding: 0;
@@ -26,5 +29,3 @@ a {
 h1, h2, h3, h4 {
   font-family: Poppins, Helvetica, Sans-Serif;
 }
-
-$color-red: #11a;

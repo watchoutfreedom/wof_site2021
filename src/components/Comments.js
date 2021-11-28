@@ -1,21 +1,4 @@
 import Utterances from "utterances-react"
-// export default Comments({ data }) => {
-//   return (
-//     <Utterances
-//       repo="watchoutfreedom/wof_site2021"
-//       issueTerm="url"
-//       label="Comment"
-//       theme="github-light"
-//       crossOrigin="anonymous"
-//       async={false}
-//       style={`
-//       & .utterances {
-//         max-width: 950px;
-//       }
-//     `}
-//     />
-//   )
-// }
 
 import React, {Component} from "react";
 
