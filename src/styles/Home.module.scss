@@ -171,6 +171,36 @@
 
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.articles summary {
+ color: black;
+ cursor: cell;
+ text-decoration: underline;
+ padding: 0 0;
+ width: 100%;
+ text-align: left;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+  list-style: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.articles summary:hover {
+ background-color: yellow;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.articles details {
+ padding: 0 18px;
+ background-color: yellow;
+ overflow: hidden;
+}
+
+.articles summary::-webkit-details-marker {
+  display: none;
+}
+
 
 @media (min-width: 1080px) {
     .articles {

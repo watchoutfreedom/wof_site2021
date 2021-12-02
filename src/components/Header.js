@@ -7,7 +7,7 @@ export default function Header() {
             <Link href="/1">
                     <h1>WOF!</h1>
             </Link>
-                    <h3>Thinking community & creative consultancy for all.</h3>
+                    <h3>The collective idea</h3>
             <div className="links"><Link href="/">Projects</Link>/<Link href="/1b">Clients</Link></div>
         </header>
     );

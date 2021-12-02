@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <main className={styles.articles}>
           <article>
             {
-              posts.map(({title, slug, date, img}) => <Post title={title} slug={slug} date={date} img={img} key={slug}/>)
+              posts.map(({title, slug, date, img, comments}) => <Post title={title} slug={slug} date={date} img={img} key={slug} comments={comments}/>)
             }
           </article>
         </main>
