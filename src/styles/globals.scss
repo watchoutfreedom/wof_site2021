@@ -38,3 +38,12 @@ a {
 h1, h2, h3, h4 {
   font-family: Poppins, Helvetica, Sans-Serif;
 }
+
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+  font-size: 0;
+}

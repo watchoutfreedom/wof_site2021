@@ -34,7 +34,6 @@ export default function Post({ source, frontmatter }) {
                 <meta name="twitter:title" content="andresargote | Compartiendo aprendizaje sobre programación y criptomonedas" /> */}
                 <meta name="twitter:description" content={frontmatter.description} />
                 <meta name="twitter:image" content={frontmatter.img} />
-                <script src="//cdn.jsdelivr.net/npm/details-polyfill@1/index.min.js" async></script>
             </Head>
 
             <div className={styles.container}>
