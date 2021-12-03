@@ -10,6 +10,6 @@ module.exports = {
   },
   reactStrictMode: true,
   images: {
-    domains: ["images.unsplash.com","www.dropbox.com","www.libros.com"],
+    domains: ["images.unsplash.com","www.dropbox.com","www.libros.com","pbs.twimg.com"],
   }
 }
