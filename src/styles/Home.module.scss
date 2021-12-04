@@ -16,9 +16,15 @@
     max-height: 50rem;
     border-radius: 0.5rem;
     overflow: hidden;
+
 }
 
 .articles picture img {
+      transition: 1s;
+  &:hover {
+    transform: scale(1.5);
+
+  }
 
 }
 
