@@ -23,9 +23,7 @@
       transition: 1s;
   &:hover {
     transform: scale(1.5);
-
   }
-
 }
 
 .articles strong {
@@ -83,7 +81,7 @@
     text-decoration: underline;
 }
 
-.articles sub {
+.articles i {
     color: lightGray;
     margin-top: 0;
     line-height: 0;
