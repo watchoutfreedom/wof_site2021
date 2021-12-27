@@ -30,7 +30,7 @@ export default function Home({ posts }) {
         </main>
         <div className={styles.actions}>
             <div>
-              <a href="https://t.me/Wofree_bot">Join Now!</a>
+              <a href="https://t.me/+-2Lm3l9PlbAxMjU0">Keep posted in Telegram!</a>
             </div>
         </div>
       </div>
