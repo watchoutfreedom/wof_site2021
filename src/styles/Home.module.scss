@@ -95,7 +95,7 @@
 
 .articles p {
     font-size: 1.6rem;
-    text-align: justify;
+    text-align: left;
     word-break: normal;
     word-spacing: normal;
     word-wrap: break-word;
@@ -105,7 +105,7 @@
 
 .articles h6 {
   font-size: 1.8rem;
-  color: red;
+  color: grey;
   line-height: 2.8rem;
   padding: 0;
   margin: 0;
@@ -213,8 +213,27 @@
 
 //style of the FEATURED Link
 .articles aside {
-  width: 80%;
-  color: orange;
+  color: black;
+  background-color: yellow;
+  margin: 0.3rem;
+
+  & p {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+
+  }
+  & a {
+    font-size: 1.6rem;
+    display: block;
+    background-color: transparent;
+    color: Turquoise;
+    margin: 0.5rem;
+    align-content: center;
+    white-space: pre-line;
+
+
+  }
+
 }
 
 
