@@ -57,6 +57,7 @@
   80%  { transform: scale(1.3) rotate(-20deg); }
   100% { transform: scale(1); }
 }
+
 @keyframes morph {
   10%   { clip-path: path('
       M2.217 0c2.348 0 4.661 2.723 8.25 4.484 3.69 1.81 9.375.438 9.375 2.641 0 4.346-4.614 10.125-9.375 10.125-2.52 0-2.54-2.489-4.118-4.066-1.401-1.4-4.507-1.764-4.507-3.809C1.842 5.029-2.543 0 2.217 0z
@@ -87,7 +88,7 @@
   text-decoration: underline;
 
   &:hover {
-    color:Turquoise;
+    color:#000000;
   }
 
 }
@@ -200,9 +201,9 @@
     font-size: 1.9rem;
     font-weight: bolder;
     color: white;
-    background-color: Turquoise;
+    background-color: #000000;
 
-    // background: linear-gradient(10deg, Turquoise, #fbfe02);
+    // background: linear-gradient(10deg, #000000, #fbfe02);
     border: none;
     justify-content: center;
     display: -moz-box;
@@ -223,8 +224,8 @@
   font-size: 1.9rem;
   font-weight: bolder;
   color: white;
-  background-color: Turquoise;
-  // background: linear-gradient(10deg, Turquoise, #fbfe02);
+  background-color: #000000;
+  // background: linear-gradient(10deg, #000000, #fbfe02);
   border: none;
   justify-content: center;
   display: -moz-box;
@@ -275,14 +276,15 @@
     margin: 0;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 
   }
   & a {
     font-size: 1.6rem;
     display: block;
+    font-size: 1.2rem;
     background-color: transparent;
-    color: Turquoise;
+    color: #000000;
     margin: 0.5rem;
     align-content: center;
     white-space: pre-line;
@@ -324,8 +326,24 @@
         font-size: 1.8rem;
     }
 
+    .articles aside {
+
+      & p {
+
+        font-size: 2rem;
+
+      }
+      & a {
+        font-size: 2rem;
+
+      }
+
+    }
+
     .actions div a {
         width: 50%;
 
     }
+
+
 }
