@@ -15,11 +15,12 @@
     padding: 1rem;
     color: white;
     background-color: Turquoise;
+    background-size: cover;
     width: 100%;
     font-family: wof;
-    -webkit-clip-path: polygon(120% 0, 0 0, 0 100%);
-    clip-path: polygon(120% 0, 0 0, 0 100%);
-
+    clip-path: path('
+        M3000.10 0 c0.348 2 -5.661 3.723 -20 5 c-10.348 0 -10 5.723 -30 5 c-10.348 -1 -20 2.723 -100 -2 C200.842 1000.029-0.543 0 0 0z
+      ');
     &:hover {
       cursor: cell;
     }
@@ -33,7 +34,7 @@
 .header a {
     font-size: 1.5rem;
     margin: 0rem 0rem;
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: none;
@@ -43,9 +44,17 @@
     }
 }
 
+.header path {
+    width: 600px;
+    animation: morph 10s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    // transform: translate(-50%,-50%);
+}
+
 .header .title {
     font-size: 5rem;
     margin: 0 0;
+
 }
 
 .header > div {
@@ -54,6 +63,8 @@
     top: 0;
     right: 0;
     margin: 1rem 1rem;
+    color: white;
+
 }
 
 .header > div a {
