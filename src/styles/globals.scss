@@ -43,6 +43,9 @@ details summary {
   cursor: pointer;
 }
 
+hr {
+  border-top: 1px dashed #292929;
+}
 details summary > * {
   display: inline;
   font-size: 0;
