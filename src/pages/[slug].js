@@ -61,13 +61,15 @@ export async function getStaticProps({ params }) {
 };
 
 export async function getStaticPaths() {
+    debugger
+
     const posts = await getFiles();
     const paths = posts.map((post) => ({
         params: {
             slug: post.replace(/\.mdx/, ""),
         },
     }));
-
+    console.log(paths);
     return {
         paths,
         fallback: false,

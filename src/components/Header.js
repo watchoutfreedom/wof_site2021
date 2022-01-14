@@ -1,13 +1,21 @@
 import Link from "next/link";
+import useEffect from "react";
 import styles from "../styles/Header.module.scss";
+import { useRouter } from 'next/router'
 
 export default function Header() {
+    const router = useRouter()
+    const esp = router.asPath.includes('es') ? true : false;
+    const url = router.asPath.includes('es') ? '/1_es' : '/1';
+
     return (
         <header className={styles.header}>
-            <Link href="/1">
+            <Link href={url}>
                     <h1>WOF!</h1>
             </Link>
-            <div className="links"><Link href="/0_projects">Projects</Link>/<Link href="/0_clients">Clients</Link>/<Link href="/">Blog</Link></div>
+            <div className="links">
+              <Link href="/0_projects">Projects</Link>/<Link href="/0_clients">Clients</Link>/<Link href="/">Blog</Link>/{esp && <Link href="/1">En</Link>}{!esp && <Link href="/1_es">Es</Link>}
+            </div>
         </header>
     );
 }
