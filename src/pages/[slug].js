@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Comments from "../components/Comments";
 import Image from "next/image";
 import styles from '../styles/Home.module.scss';
+import styles2 from '../styles/Gallery.module.scss';
 
 
 export default function Post({ source, frontmatter }) {
@@ -38,7 +39,7 @@ export default function Post({ source, frontmatter }) {
 
             <div className={styles.container}>
                 <Header />
-                <main className={styles.articles}>
+                <main className={`${styles.articles} ${styles2.gallery}`} >
                     <MDXRemote {...source} />
                 </main>
                 {frontmatter.comments &&

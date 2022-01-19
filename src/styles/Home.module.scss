@@ -9,7 +9,8 @@
 }
 
 .articles picture {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,12 +132,6 @@
     text-decoration: underline;
 }
 
-.articles i {
-    color: lightGray;
-    margin-top: 0;
-    line-height: 0;
-    padding-top: 0;
-}
 
 .articles p a {
     text-decoration: underline;
@@ -242,6 +237,10 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .articles summary {
 
+  background-color: yellow;
+  border-radius: 2rem 2rem 2rem 0  ;
+  padding: 1rem 1rem;
+
   &::before {
     content:"";
     display: none;
@@ -258,7 +257,7 @@
 .articles details {
 
  padding: 10px 18px;
- background-color: yellow;
+ background-color: white;
  overflow: hidden;
 
 }
