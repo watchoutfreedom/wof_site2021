@@ -5,8 +5,8 @@ import { useRouter } from 'next/router'
 
 export default function Header() {
     const router = useRouter()
-    const esp = router.asPath.includes('es') ? true : false;
-    const url = router.asPath.includes('es') ? '/1_es' : '/1';
+    const esp = router.asPath.includes('_es') ? true : false;
+    const url = router.asPath.includes('_es') ? '/1_es' : '/1';
 
     return (
         <header className={styles.header}>
