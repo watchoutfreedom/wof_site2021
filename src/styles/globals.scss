@@ -75,3 +75,8 @@ nav {
   width: 100%;
   justify-content: space-around;
 }
+
+address:after {
+  font-style: normal;
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
