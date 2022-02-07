@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Wof! - Watch out, freedom! - Cuidado, libertad! </title>
+        <title>Wof! - Watch Out, Freedom! - Cuidado, libertad! </title>
         <link rel="icon" href="./favicon.ico" />
         <link
           rel="preload"
@@ -24,7 +24,10 @@ export default function Home({ posts }) {
         <main className={styles.articles}>
           <article>
             {
-              posts.map(({title, slug, date, img, comments}) => <Post title={title} slug={slug} date={date} img={img} key={slug} comments={comments}/>)
+              posts.map(({title, slug, date, img, blog, comments}) => {
+                if (blog)
+                {return <Post title={title} slug={slug} date={date} img={img} key={slug} blog={blog} comments={comments}/>}
+              })
             }
           </article>
         </main>
