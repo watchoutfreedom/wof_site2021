@@ -14,7 +14,7 @@ export default function Header() {
                     <h1>WOF!</h1>
             </Link>
             <div className="links">
-              <Link href="/0_projects">Projects</Link>/<Link href="/0_clients">Clients</Link>/<Link href="/">Blog</Link>/{esp && <Link href="/1">En</Link>}{!esp && <Link href="/1_es">Es</Link>}
+              <Link href="/0_services">Services</Link>/<Link href="/0_clients">Clients</Link>/<Link href="/0_projects">Projects</Link>/<Link href="/">Blog</Link>
             </div>
         </header>
     );

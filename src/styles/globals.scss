@@ -80,3 +80,8 @@ address:after {
   font-style: normal;
   content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }
+
+label:after {
+  font-style: normal;
+  content: attr(data-name) attr(data-domain) "9360" attr(data-tld);
+}
