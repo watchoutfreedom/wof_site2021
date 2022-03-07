@@ -162,6 +162,7 @@
             bottom: 0;
             z-index: 99;
             height: 100%;
+            width: 100%;
 
 
           }
@@ -169,6 +170,7 @@
           & p {
 
             padding: 1rem 0;
+            padding-right: 70px;
             position: absolute;
             line-height: 2rem;
             top: 30%;
