@@ -14,7 +14,6 @@ export default function Post({ source, frontmatter }) {
         <>
             <Head>
                 <meta charset="utf-8"/>
-                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <title>{frontmatter.title}</title>
                {/*  <link rel="icon" href="/favicon.ico" /> */}
 
