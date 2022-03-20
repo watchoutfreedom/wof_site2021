@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           as="font"
           crossOrigin=""
         />
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
       </Head>
       <div className={styles.container}>
         <Header />
