@@ -18,6 +18,9 @@ export default function Home({ posts }) {
           as="font"
           crossOrigin=""
         />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1024"/>
       </Head>
       <div className={styles.container}>
         <Header />

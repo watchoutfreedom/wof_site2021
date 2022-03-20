@@ -13,6 +13,8 @@ export default function Post({ source, frontmatter }) {
     return (
         <>
             <Head>
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <title>{frontmatter.title}</title>
                {/*  <link rel="icon" href="/favicon.ico" /> */}
 
@@ -35,6 +37,7 @@ export default function Post({ source, frontmatter }) {
                 <meta name="twitter:title" content="andresargote | Compartiendo aprendizaje sobre programación y criptomonedas" /> */}
                 <meta name="twitter:description" content={frontmatter.description} />
                 <meta name="twitter:image" content={frontmatter.img} />
+
             </Head>
 
             <div className={styles.container}>

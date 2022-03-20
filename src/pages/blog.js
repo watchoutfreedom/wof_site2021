@@ -18,6 +18,8 @@ export default function Home({ posts }) {
           as="font"
           crossOrigin=""
         />
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       </Head>
       <div className={styles.container}>
         <Header />
