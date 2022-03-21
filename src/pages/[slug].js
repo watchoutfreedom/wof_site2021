@@ -37,6 +37,8 @@ export default function Post({ source, frontmatter }) {
                 <meta name="twitter:description" content={frontmatter.description} />
                 <meta name="twitter:image" content={frontmatter.img} />
                 <meta name="robots" content="follow"/>
+                <meta name="expires" content="tue, 01 Jun 2023"/>
+
             </Head>
 
             <div className={styles.container}>

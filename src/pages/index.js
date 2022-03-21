@@ -22,7 +22,8 @@ export default function Home({ posts }) {
         <meta name="description" content="Multidisciplinary creative consultancy services. Thinking community and independent innovation hub."/>
         <meta name="keywords" content="multidisciplinary, creative, consultancy, innovation, idea, creation, community"/>
         <meta name="robots" content="follow"/>
-        
+        <meta name="expires" content="tue, 01 Jun 2023"/>
+
       </Head>
       <div className={styles.container}>
         <Header />
