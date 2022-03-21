@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Wof! - Watch Out, Freedom! - Cuidado, libertad! </title>
+        <title>Wof! - Watch Out, Freedom! Blog - A muldisciplinary thinking spot. </title>
         <link rel="icon" href="./favicon.ico" />
         <link
           rel="preload"
@@ -19,6 +19,9 @@ export default function Home({ posts }) {
           crossOrigin=""
         />
         <meta charset="utf-8"/>
+        <meta name="description" content="The open blog for the thinking community behind Wof!"/>
+        <meta name="keywords" content="multidisciplinary, creative, consultancy, innovation, idea, creation, community"/>
+        <meta name="robots" content="follow"/>
       </Head>
       <div className={styles.container}>
         <Header />

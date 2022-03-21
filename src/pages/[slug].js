@@ -36,7 +36,7 @@ export default function Post({ source, frontmatter }) {
                 <meta name="twitter:title" content="andresargote | Compartiendo aprendizaje sobre programación y criptomonedas" /> */}
                 <meta name="twitter:description" content={frontmatter.description} />
                 <meta name="twitter:image" content={frontmatter.img} />
-
+                <meta name="robots" content="follow"/>
             </Head>
 
             <div className={styles.container}>

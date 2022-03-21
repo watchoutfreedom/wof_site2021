@@ -19,6 +19,10 @@ export default function Home({ posts }) {
           crossOrigin=""
         />
         <meta charset="utf-8"/>
+        <meta name="description" content="Multidisciplinary creative consultancy services. Thinking community and independent innovation hub."/>
+        <meta name="keywords" content="multidisciplinary, creative, consultancy, innovation, idea, creation, community"/>
+        <meta name="robots" content="follow"/>
+        
       </Head>
       <div className={styles.container}>
         <Header />
