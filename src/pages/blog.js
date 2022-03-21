@@ -3,10 +3,22 @@ import Head from 'next/head'
 import Post from '../components/Post'
 import Link from "next/link";
 import styles from '../styles/Home.module.scss'
+import React, { useEffect } from "react";
+import Router from 'next/router'
 
 import { getAllFilesMetadata } from '../../lib/mdx'
 
+
+
 export default function Home({ posts }) {
+
+  useEffect(() => {
+     const {pathname} = Router
+     if(pathname == '/blog' ){
+         Router.push('/')
+     }
+   });
+   
   return (
     <>
       <Head>
